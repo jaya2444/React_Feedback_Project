@@ -1,0 +1,75 @@
+/* Center the form container in the viewport */
+.feedback-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light background color */
+    margin: 0;
+}
+
+label{
+    text-align: left;
+}
+/* Style the form box */
+.feedback-form-box {
+    width: 100%;
+    max-width: 600px; /* Maximum width for the form */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Style form headings */
+.feedback-form-box h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style form group for spacing */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style form labels */
+.feedback-form-box label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style input fields and textarea */
+.feedback-form-box input[type="text"],
+.feedback-form-box input[type="email"],
+.feedback-form-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+.feedback-form-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.feedback-form-box button:hover {
+    background-color: #0056b3;
+}
+
+
